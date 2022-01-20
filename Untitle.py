@@ -1,6 +1,6 @@
 
 
-a, b = list(map(int, input('type a (a, b) to get sum of it: ').split()))
+a, b = list(map(int, input('type a (a, b) to multiply it: ').split()))
 
 res = lambda a, b: a if b == 1 else \
 		a + calc (a, b-1)
